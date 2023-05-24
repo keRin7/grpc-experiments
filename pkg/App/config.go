@@ -6,7 +6,7 @@ import (
 	"github.com/keRin7/grpc-experiments/pkg/grpcHealthCheck"
 	"github.com/keRin7/grpc-experiments/pkg/webServer"
 	"github.com/sirupsen/logrus"
-	"gopkg.in/yaml.v1"
+	"gopkg.in/yaml.v3"
 )
 
 type Config struct {
